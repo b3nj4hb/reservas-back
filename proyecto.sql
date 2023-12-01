@@ -1,9 +1,9 @@
-create database viajes;
-create user viajes identified by '123456';
-GRANT ALL PRIVILEGES ON viajes.* TO viajes;
+create database reserva;
+create user reserva identified by '123456';
+GRANT ALL PRIVILEGES ON reserva.* TO reserva;
 FLUSH PRIVILEGES;
 
-use viajes;
+use reserva;
 
 -- Sample data for table `cliente`
 INSERT INTO `cliente` (`apellidos`, `email`, `nombres`, `telefono`) VALUES
